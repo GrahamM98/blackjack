@@ -1,0 +1,62 @@
+.Window {
+    width: 100%;
+}
+
+.Table {
+    position: relative;
+    border: 3px solid;
+    width: 40%;
+    height: 400px;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.EndText {
+    transform: translateY(-50%) translateX(-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.Card {
+    display: inline-block;
+}
+
+.Hit {
+    display: inline-block;
+    transform: translateY(-50%) translateX(-50%);
+    position: absolute;
+    top: 48%;
+    right: 10%;
+    cursor: pointer;
+}
+
+.Stand {
+    display: inline-block;
+    transform: translateY(-50%) translateX(-50%);
+    position: absolute;
+    top: 48%;
+    left: 20%;
+    cursor: pointer;
+}
+
+.Hand {
+    display: inline-block;
+    transform: translateX(-50%);
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    text-align: center;
+    width: 60%;
+}
+
+.Dealer {
+    display: inline-block;
+    transform: translateX(-50%);
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    text-align: center;
+    width: 60%;
+}
